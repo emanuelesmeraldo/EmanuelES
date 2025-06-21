@@ -89,31 +89,45 @@ nav {
 
 /*área 2*/
 
-:root{
+:root {
     --radios: 20px;
 }
 
 .Container_Area2 {
     height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+
+}
+
+.subContainer {
+    height: 50vh;
     min-height: 300px;
     background-color: rgb(255, 0, 0);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 100px;
 }
 
 .Cd_Area2 {
-    width: 17%;
+    width: 250px;
     height: 100%;
-    background-color:bisque ;
+    background-color: bisque;
     position: relative;
-    
-   
+
+
 
 }
 
 .Cd_Area2>img {
     border-radius: var(--radios);
-    position:absolute;
+    position: absolute;
     height: 100%;
 
 }
@@ -123,7 +137,7 @@ nav {
     border-bottom-right-radius: var(--radios);
     position: absolute;
     height: 20%;
-    top:80%;
+    top: 80%;
     background-color: rgba(0, 0, 255, 0.611);
     transition: all 0.5s ease;
 }
@@ -131,7 +145,42 @@ nav {
 .baner1:hover {
     height: 100%;
     transition: all 0.5s ease;
-    top:0;
+    top: 0;
     border-radius: var(--radios);
 
+}
+
+
+
+.area3{
+    height: 100Vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.Container_Area3{
+    background-color: greenyellow;
+    height: 3px;
+    width: 100%;
+    
+}
+.linha{
+    display: flex;
+    justify-content: center;
+}
+.linha>ul{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.linha>ul>li{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 10px;
+    
 }
